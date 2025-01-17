@@ -1,5 +1,7 @@
 res://default_env.tres
-res://game.tscn
+res://player.tscn
 res://levels/rooms/tilesets/floating_dungeon_tileset.tres
 res://levels/rooms/tilesets/tileset_invisible_walls.tres
-res://player.tscn
+res://common/shadow.tscn
+res://levels/rooms/room_a.tscn
+res://game.tscn

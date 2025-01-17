@@ -1,9 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://d3lqn1pbvhqbg"]
+[gd_scene load_steps=6 format=3 uid="uid://dlytn48bpnp5q"]
 
 [ext_resource type="Texture2D" uid="uid://bw03btxpkxde4" path="res://player/godot_bottom.png" id="1_0bnx0"]
 [ext_resource type="Script" path="res://player.gd" id="1_cqbbw"]
-[ext_resource type="PackedScene" path="res://common/shadow.tscn" id="2_p7mcf"]
-[ext_resource type="Script" path="res://player/sprite_2d.gd" id="3_jo87d"]
+[ext_resource type="PackedScene" uid="uid://bnuqh1djcnc3j" path="res://common/shadow.tscn" id="2_p7mcf"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="3_bonbi"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_j2orn"]
 radius = 24.1868
@@ -14,7 +14,7 @@ script = ExtResource("1_cqbbw")
 [node name="Lil G" type="Sprite2D" parent="."]
 position = Vector2(0, -41)
 texture = ExtResource("1_0bnx0")
-script = ExtResource("3_jo87d")
+script = ExtResource("3_bonbi")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
