@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://player.gd" id="1_cqbbw"]
 [ext_resource type="PackedScene" uid="uid://bnuqh1djcnc3j" path="res://common/shadow.tscn" id="2_p7mcf"]
 [ext_resource type="Script" path="res://sprite_2d.gd" id="3_bonbi"]
-[ext_resource type="Script" path="res://real_weapon_pivot.gd" id="5_kd67p"]
+[ext_resource type="Script" path="res://weapon_pivot.gd" id="5_odbyw"]
 [ext_resource type="PackedScene" uid="uid://bf6apxvjpc1ib" path="res://weapon.tscn" id="6_0rfar"]
 [ext_resource type="Texture2D" uid="uid://dekkcmj408pvt" path="res://player/hand_fire.png" id="7_t206a"]
 
@@ -29,21 +29,24 @@ shape = SubResource("CircleShape2D_j2orn")
 position = Vector2(0, 15)
 
 [node name="RealWeaponPivot" type="Node2D" parent="."]
-script = ExtResource("5_kd67p")
+position = Vector2(1, -32)
+rotation = 0.0349633
+script = ExtResource("5_odbyw")
 
 [node name="WeaponAnchor" type="Marker2D" parent="RealWeaponPivot"]
 unique_name_in_owner = true
-rotation = 0.00698717
+position = Vector2(-1.32833, -37.9768)
+rotation = -1.59618
 
 [node name="Weapon" parent="RealWeaponPivot/WeaponAnchor" instance=ExtResource("6_0rfar")]
 
 [node name="HandLeft" type="Sprite2D" parent="RealWeaponPivot/WeaponAnchor"]
-position = Vector2(73.7182, -39.9954)
-rotation = -0.0721319
+position = Vector2(22.4669, -22.4536)
+rotation = 0.0431454
 texture = ExtResource("7_t206a")
 
 [node name="HandRight" type="Sprite2D" parent="RealWeaponPivot/WeaponAnchor"]
-position = Vector2(71.5682, -1.72823)
+position = Vector2(17.9675, 20.3103)
 rotation = -0.0131323
 scale = Vector2(1, -0.976677)
 texture = ExtResource("7_t206a")
