@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1738005495
 bullet.gd::GDScript::-1::1737747538::0::1::::bullet<>Area2D<>::
 bullet.tscn::PackedScene::5077895096431032374::1738005451::0::1::::<><>::res://bullet.gd<>uid://bgn8fvhkjniwn::::res://weapons/bullets/fire.png
@@ -12,6 +13,22 @@ sprite_2d.gd::GDScript::-1::1736536946::0::1::::<>Sprite2D<>::
 weapon.gd::GDScript::-1::1738005282::0::1::::Weapon<>Node2D<>::
 weapon.tscn::PackedScene::2801388640074708313::1738005451::0::1::::<><>::res://weapon.gd
 weapon_pivot.gd::GDScript::-1::1738005215::0::1::::<>Node2D<>::
+=======
+::res://::1738957636
+bullet.gd::GDScript::-1::1738784225::0::1::::bullet<>Area2D<>::
+bullet.tscn::PackedScene::5077895096431032374::1738956314::0::1::::<><>::res://bullet.gd<>uid://bgn8fvhkjniwn::::res://weapons/bullets/fire.png
+default_bus_layout.tres::AudioBusLayout::-1::1734314098::0::1::::<><>::
+default_env.tres::Environment::3478342378168232311::1738956314::0::1::::<><>::
+game.tscn::PackedScene::4765880933036840865::1738956314::0::1::::<><>::uid://cu2rb5dl4ljte::::res://levels/rooms/room_a.tscn<>uid://dlytn48bpnp5q::::res://player.tscn
+icon.png::CompressedTexture2D::3641366948845910627::1734314098::1736535646::1::::<><>::
+player.gd::GDScript::-1::1738956158::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::7982062809600130176::1738956314::0::1::::<><>::uid://bw03btxpkxde4::::res://player/godot_bottom.png<>res://player.gd<>uid://bnuqh1djcnc3j::::res://common/shadow.tscn<>res://sprite_2d.gd<>res://weapon_pivot.gd<>uid://bf6apxvjpc1ib::::res://weapon.tscn<>uid://dekkcmj408pvt::::res://player/hand_fire.png
+real_weapon_pivot.gd::GDScript::-1::1738954995::0::1::::<>Node2D<>::
+sprite_2d.gd::GDScript::-1::1736536946::0::1::::<>Sprite2D<>::
+weapon.gd::GDScript::-1::1738956234::0::1::::Weapon<>Node2D<>::
+weapon.tscn::PackedScene::2801388640074708313::1738956314::0::1::::<><>::res://weapon.gd
+weapon_pivot.gd::GDScript::-1::1738955597::0::1::::<>Node2D<>::
+>>>>>>> Stashed changes
 weapon_pivot.tscn::PackedScene::4220553494248066677::1738005476::0::1::::<><>::
 ::res://addons/::1734314098
 ::res://addons/gdpractice/::1734314098
@@ -242,9 +259,15 @@ table_small_pots.png::CompressedTexture2D::3696917056933396333::1734314098::1736
 table_small_red.png::CompressedTexture2D::1984468563033643372::1734314098::1736535646::1::::<><>::
 table_small_silver.png::CompressedTexture2D::6542309265093039839::1734314098::1736535646::1::::<><>::
 table_small_yellow.png::CompressedTexture2D::7957411828382726303::1734314098::1736535646::1::::<><>::
+<<<<<<< Updated upstream
 ::res://levels/rooms/::1738005451
 room.gd::GDScript::-1::1734314098::0::1::::<>Node2D<>::
 room_a.tscn::PackedScene::6233391995051302902::1738005451::0::1::::<><>::res://levels/rooms/room.gd<>uid://bq65uwha45com::::res://levels/rooms/tilesets/floating_dungeon_tileset.tres<>uid://cqb2wtrubw0n6::::res://levels/rooms/tilesets/tileset_invisible_walls.tres<>uid://ke0kmcp0efiv::::res://levels/rooms/tilemap_layer_walls.tscn
+=======
+::res://levels/rooms/::1738956314
+room.gd::GDScript::-1::1734314098::0::1::::<>Node2D<>::
+room_a.tscn::PackedScene::6233391995051302902::1738956314::0::1::::<><>::res://levels/rooms/room.gd<>uid://bq65uwha45com::::res://levels/rooms/tilesets/floating_dungeon_tileset.tres<>uid://cqb2wtrubw0n6::::res://levels/rooms/tilesets/tileset_invisible_walls.tres<>uid://ke0kmcp0efiv::::res://levels/rooms/tilemap_layer_walls.tscn
+>>>>>>> Stashed changes
 room_b.tscn::PackedScene::7581888450332090606::1734314098::0::1::::<><>::res://levels/rooms/room.gd<>uid://bq65uwha45com::::res://levels/rooms/tilesets/floating_dungeon_tileset.tres<>uid://cqb2wtrubw0n6::::res://levels/rooms/tilesets/tileset_invisible_walls.tres<>uid://ke0kmcp0efiv::::res://levels/rooms/tilemap_layer_walls.tscn
 room_c.tscn::PackedScene::5948223142006537488::1734314098::0::1::::<><>::res://levels/rooms/room.gd<>uid://bq65uwha45com::::res://levels/rooms/tilesets/floating_dungeon_tileset.tres<>uid://cqb2wtrubw0n6::::res://levels/rooms/tilesets/tileset_invisible_walls.tres<>uid://ke0kmcp0efiv::::res://levels/rooms/tilemap_layer_walls.tscn
 room_d.tscn::PackedScene::7767725721765856277::1734314098::0::1::::<><>::res://levels/rooms/room.gd<>uid://bq65uwha45com::::res://levels/rooms/tilesets/floating_dungeon_tileset.tres<>uid://ke0kmcp0efiv::::res://levels/rooms/tilemap_layer_walls.tscn<>uid://cqb2wtrubw0n6::::res://levels/rooms/tilesets/tileset_invisible_walls.tres
@@ -258,6 +281,7 @@ door_glow_vertical.png::CompressedTexture2D::1734229579929884776::1734314098::17
 door_open.png::CompressedTexture2D::3539256605722955992::1734314098::1736535646::1::::<><>::
 door_open_vertical.png::CompressedTexture2D::5905492156414820078::1734314098::1736535646::1::::<><>::
 door_stop.png::CompressedTexture2D::5340894106598428962::1734314098::1736535646::1::::<><>::
+<<<<<<< Updated upstream
 ::res://levels/rooms/tilesets/::1738004144
 dungeon.png::CompressedTexture2D::5459444218341913429::1734314098::1736535646::1::::<><>::
 floating_dungeon_tileset.tres::TileSet::3575296284305833840::1738004144::0::1::::<><>::uid://cj1uipouljspx::::res://levels/rooms/tilesets/dungeon.png
@@ -265,6 +289,15 @@ invisible_wall.png::CompressedTexture2D::890164393073336521::1734314098::1736535
 tileset_bridges.png::CompressedTexture2D::2159995617403918798::1734314098::1736535646::1::::<><>::
 tileset_bridges.tres::TileSet::5987068910469940508::1734314098::0::1::::<><>::uid://51k2u7iwra8e::::res://levels/rooms/tilesets/tileset_bridges.png
 tileset_invisible_walls.tres::TileSet::5899606914735648957::1738004144::0::1::::<><>::uid://mxg43nh4ra30::::res://levels/rooms/tilesets/invisible_wall.png
+=======
+::res://levels/rooms/tilesets/::1738954995
+dungeon.png::CompressedTexture2D::5459444218341913429::1734314098::1736535646::1::::<><>::
+floating_dungeon_tileset.tres::TileSet::3575296284305833840::1738954995::0::1::::<><>::uid://cj1uipouljspx::::res://levels/rooms/tilesets/dungeon.png
+invisible_wall.png::CompressedTexture2D::890164393073336521::1734314098::1736535646::1::::<><>::
+tileset_bridges.png::CompressedTexture2D::2159995617403918798::1734314098::1736535646::1::::<><>::
+tileset_bridges.tres::TileSet::5987068910469940508::1734314098::0::1::::<><>::uid://51k2u7iwra8e::::res://levels/rooms/tilesets/tileset_bridges.png
+tileset_invisible_walls.tres::TileSet::5899606914735648957::1738954995::0::1::::<><>::uid://mxg43nh4ra30::::res://levels/rooms/tilesets/invisible_wall.png
+>>>>>>> Stashed changes
 ::res://mobs/::1736535646
 hurt.wav::AudioStreamWAV::7516190596826536812::1734314098::1736535646::1::::<><>::
 kill.wav::AudioStreamWAV::6116696118948269422::1734314098::1736535646::1::::<><>::

@@ -7,6 +7,7 @@ var max_range := 1000.0
 var _traveled_distance = 0.0
 
 
+
 func _physics_process(delta: float) -> void:
 	var distance := Vector2.RIGHT.rotated(rotation) 
 	position += distance * speed * delta
