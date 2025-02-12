@@ -5,10 +5,6 @@ res://levels/rooms/tilesets/tileset_invisible_walls.tres
 res://levels/rooms/room_a.tscn
 res://game.tscn
 res://bullet.tscn
+res://mob.gd
+res://mob.tscn
 res://bullet.gd
-res://player.gd
-res://real_weapon_pivot.gd
-res://levels/rooms/room.gd
-res://sprite_2d.gd
-res://weapon.gd
-res://weapon_pivot.gd

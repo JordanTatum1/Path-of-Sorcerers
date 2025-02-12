@@ -5,7 +5,7 @@ class_name bullet extends Area2D
 var max_range := 1000.0
 
 var _traveled_distance = 0.0
-
+var damage := 1
 
 
 func _physics_process(delta: float) -> void:
@@ -16,6 +16,8 @@ func _physics_process(delta: float) -> void:
 	if _traveled_distance > max_range:
 		_destroy()
 
+
+	
 
 func _destroy():
 	queue_free()

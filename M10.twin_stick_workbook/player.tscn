@@ -30,24 +30,35 @@ position = Vector2(0, 15)
 
 [node name="RealWeaponPivot" type="Node2D" parent="."]
 position = Vector2(1, -32)
-rotation = 0.0349633
+rotation = 6.30433
 script = ExtResource("5_odbyw")
 
 [node name="WeaponAnchor" type="Marker2D" parent="RealWeaponPivot"]
 unique_name_in_owner = true
 position = Vector2(-1.32833, -37.9768)
-rotation = -1.59618
+rotation = 4.65127
 
 [node name="Weapon" type="Node2D" parent="RealWeaponPivot/WeaponAnchor"]
+position = Vector2(-28.954, 73.4265)
+rotation = 1.61023
 script = ExtResource("6_wotdv")
+random_angle = 0.10472
+max_bullet_speed = 3000.0
+
+[node name="Weapon2" type="Node2D" parent="RealWeaponPivot/WeaponAnchor"]
+position = Vector2(-65.8845, 70.9486)
+rotation = 1.61023
+script = ExtResource("6_wotdv")
+random_angle = 0.10472
+max_bullet_speed = 3000.0
 
 [node name="HandLeft" type="Sprite2D" parent="RealWeaponPivot/WeaponAnchor"]
-position = Vector2(22.4669, -22.4536)
-rotation = 0.0431454
+position = Vector2(-28.5943, 64.4337)
+rotation = 1.61488
 texture = ExtResource("7_t206a")
 
 [node name="HandRight" type="Sprite2D" parent="RealWeaponPivot/WeaponAnchor"]
-position = Vector2(17.9675, 20.3103)
-rotation = -0.0131323
+position = Vector2(-63.6463, 65.0333)
+rotation = 1.62933
 scale = Vector2(1, -0.976677)
 texture = ExtResource("7_t206a")

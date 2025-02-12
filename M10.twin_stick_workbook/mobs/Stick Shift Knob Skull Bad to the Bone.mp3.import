@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhjiev7167wjr"
+path="res://.godot/imported/Stick Shift Knob Skull Bad to the Bone.mp3-501a6a8717ff0ad7233efaf3f925cb56.mp3str"
+
+[deps]
+
+source_file="res://mobs/Stick Shift Knob Skull Bad to the Bone.mp3"
+dest_files=["res://.godot/imported/Stick Shift Knob Skull Bad to the Bone.mp3-501a6a8717ff0ad7233efaf3f925cb56.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
