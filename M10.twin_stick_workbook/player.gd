@@ -2,6 +2,7 @@ class_name Player extends CharacterBody2D
 
 @export var speed := 500.0
 @export var drag_factor := 10.0
+@export var health = 5
 
 
 func _physics_process(delta: float) -> void:

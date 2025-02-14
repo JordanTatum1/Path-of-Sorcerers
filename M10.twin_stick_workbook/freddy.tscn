@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuggecxl5s06a"]
+
+[ext_resource type="Texture2D" uid="uid://gcn7g2qr0ko" path="res://levels/background/images.jpeg" id="1_2uupy"]
+
+[node name="Freddy" type="Sprite2D"]
+position = Vector2(2331.88, 1315.63)
+scale = Vector2(20.8544, 11.9589)
+texture = ExtResource("1_2uupy")

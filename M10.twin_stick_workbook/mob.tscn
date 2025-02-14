@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://nohjoiah3jgr" path="res://mobs/sword_inactive.png" id="2_iaajv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ma7b2"]
-radius = 325.983
+radius = 853.652
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pemau"]
 radius = 24.9889
@@ -18,7 +18,7 @@ height = 133.998
 motion_mode = 1
 script = ExtResource("1_lhuol")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sword" type="Sprite2D" parent="."]
 texture = ExtResource("2_iaajv")
 
 [node name="DetectionArea" type="Area2D" parent="."]
@@ -33,7 +33,6 @@ rotation = 1.57238
 shape = SubResource("CapsuleShape2D_pemau")
 
 [node name="Hitbox" type="Area2D" parent="."]
-unique_name_in_owner = true
 
 [node name="Damage" type="CollisionShape2D" parent="Hitbox"]
 rotation = 1.57158

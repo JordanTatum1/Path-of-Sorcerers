@@ -42,14 +42,21 @@ rotation = 4.65127
 position = Vector2(-28.954, 73.4265)
 rotation = 1.61023
 script = ExtResource("6_wotdv")
-random_angle = 0.10472
+random_angle = 0.0523599
+max_bullet_speed = 3000.0
+
+[node name="Weapon3" type="Node2D" parent="RealWeaponPivot/WeaponAnchor"]
+position = Vector2(-45.9404, 72.7473)
+rotation = 1.61023
+script = ExtResource("6_wotdv")
+random_angle = 0.0523599
 max_bullet_speed = 3000.0
 
 [node name="Weapon2" type="Node2D" parent="RealWeaponPivot/WeaponAnchor"]
 position = Vector2(-65.8845, 70.9486)
 rotation = 1.61023
 script = ExtResource("6_wotdv")
-random_angle = 0.10472
+random_angle = 0.0523599
 max_bullet_speed = 3000.0
 
 [node name="HandLeft" type="Sprite2D" parent="RealWeaponPivot/WeaponAnchor"]
